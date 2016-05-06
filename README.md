@@ -1,8 +1,8 @@
 # Atlassian Confluence in a Docker container
 
-> Version 5.5
+> Version 5.4.3
 
-[![Build Status](https://img.shields.io/circleci/project/cptactionhank/docker-atlassian-confluence/5.5.svg)](https://circleci.com/gh/cptactionhank/docker-atlassian-confluence) [![Open Issues](https://img.shields.io/github/issues/cptactionhank/docker-atlassian-confluence.svg)](https://github.com/cptactionhank/docker-atlassian-confluence) [![Stars on GitHub](https://img.shields.io/github/stars/cptactionhank/docker-atlassian-confluence.svg)](https://github.com/cptactionhank/docker-atlassian-confluence) [![Forks on GitHub](https://img.shields.io/github/forks/cptactionhank/docker-atlassian-confluence.svg)](https://github.com/cptactionhank/docker-atlassian-confluence) [![Stars on Docker Hub](https://img.shields.io/docker/stars/cptactionhank/atlassian-confluence.svg)](https://registry.hub.docker.com/u/cptactionhank/atlassian-confluence) [![Pulls on Docker Hub](https://img.shields.io/docker/pulls/cptactionhank/atlassian-confluence.svg)](https://registry.hub.docker.com/u/cptactionhank/atlassian-confluence)
+[![Build Status](https://img.shields.io/circleci/project/cptactionhank/docker-atlassian-confluence/5.4.3.svg)](https://circleci.com/gh/cptactionhank/docker-atlassian-confluence) [![Open Issues](https://img.shields.io/github/issues/cptactionhank/docker-atlassian-confluence.svg)](https://github.com/cptactionhank/docker-atlassian-confluence) [![Stars on GitHub](https://img.shields.io/github/stars/cptactionhank/docker-atlassian-confluence.svg)](https://github.com/cptactionhank/docker-atlassian-confluence) [![Forks on GitHub](https://img.shields.io/github/forks/cptactionhank/docker-atlassian-confluence.svg)](https://github.com/cptactionhank/docker-atlassian-confluence) [![Stars on Docker Hub](https://img.shields.io/docker/stars/cptactionhank/atlassian-confluence.svg)](https://registry.hub.docker.com/u/cptactionhank/atlassian-confluence) [![Pulls on Docker Hub](https://img.shields.io/docker/pulls/cptactionhank/atlassian-confluence.svg)](https://registry.hub.docker.com/u/cptactionhank/atlassian-confluence)
 
 A containerized installation of Atlassian Confluence setup with a goal of keeping the installation as default as possible, but with a few Docker related twists.
 
@@ -12,7 +12,7 @@ Want to help out, check out the contribution section.
 
 To quickly get started with running a Confluence instance, first run the following command:
 ```bash
-docker run --detach --publish 8090:8090 cptactionhank/atlassian-confluence:5.5
+docker run --detach --publish 8090:8090 cptactionhank/atlassian-confluence:5.4.3
 ```
 
 Then use your browser to navigate to `http://[dockerhost]:8090` and finish the configuration.
