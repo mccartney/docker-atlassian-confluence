@@ -22,7 +22,7 @@ if [ "$(stat --format "%Y" "${CONF_INSTALL}/conf/server.xml")" -eq "0" ]; then
 fi
 
 if [ -f "${CERTIFICATE}" ]; then
-  sudo keytool -noprompt -storepass changeit -keystore ${JAVA_CACERTS} -import -file ${CERTIFICATE} -alias CompanyCA
+  keytool -noprompt -storepass changeit -keystore ${JAVA_CACERTS} -import -file ${CERTIFICATE} -alias CompanyCA
 fi
 
 exec "$@"
